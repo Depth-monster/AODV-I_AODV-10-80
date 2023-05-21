@@ -1,0 +1,141 @@
+xml@xml-virtual-machine:~/diploma/ns-allinone-3.35/ns-3.35$ ./waf --run "scratch/manet-routing-compare.cc --nWifis=10 --nSinks=2"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=20 --nSinks=4"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=30 --nSinks=6"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=40 --nSinks=8"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=50 --nSinks=10"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=60 --nSinks=12"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=70 --nSinks=14"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=80 --nSinks=16"
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+[  11/3033] Compiling install-ns3-header: ns3/aodv-rtable.h
+[ 153/3033] Compiling install-ns3-header: ns3/aodv-routing-protocol.h
+[ 193/3033] Compiling install-ns3-header: ns3/aodv-packet.h
+[1861/3033] Compiling src/aodv/model/aodv-routing-protocol.cc
+[1862/3033] Compiling src/aodv/model/aodv-packet.cc
+[2420/3033] Compiling src/aodv/model/aodv-rtable.cc
+[2973/3033] Compiling src/aodv/helper/aodv-helper.cc
+[2974/3033] Compiling src/aodv/test/aodv-test-suite.cc
+[2975/3033] Compiling src/aodv/examples/aodv.cc
+[2976/3033] Linking build/lib/libns3.35-aodv-debug.so
+[2977/3033] Compiling build/src/aodv/bindings/ns3module.cc
+[2978/3033] Linking build/lib/libns3.35-aodv-test-debug.so
+[2979/3033] Linking build/scratch/first
+[2980/3033] Linking build/src/aodv/examples/ns3.35-aodv-debug
+[2981/3033] Linking build/scratch/subdir/subdir
+[2982/3033] Linking build/scratch/scratch-simulator
+[2983/3033] Linking build/utils/ns3.35-test-runner-debug
+[2984/3033] Linking build/utils/ns3.35-print-introspected-doxygen-debug
+[2985/3033] Compiling src/internet-apps/examples/traceroute-example.cc
+[2986/3033] Compiling src/wave/examples/vanet-routing-compare.cc
+[2987/3033] Linking build/bindings/python/ns/aodv.cpython-310-x86_64-linux-gnu.so
+[2988/3033] Linking build/src/internet-apps/examples/ns3.35-traceroute-example-debug
+[2989/3033] Compiling examples/routing/manet-routing-compare.cc
+[2990/3033] Compiling scratch/manet-routing-compare.cc
+[2991/3033] Linking build/src/wave/examples/ns3.35-vanet-routing-compare-debug
+[2992/3033] Linking build/examples/routing/ns3.35-manet-routing-compare-debug
+[2993/3033] Linking build/scratch/manet-routing-compare
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (30.474s)
+
+
+Total Tx Packets: 58
+Total Rx Packets: 15
+Total Packets Lost: 36
+Throughput: 1.50068 Kbps
+Packets Delivery Ratio: 25.8621%
+Packets Loss Ratio: 62.069%
+Avg End to End Delay: 0.0736603
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.590s)
+
+
+Total Tx Packets: 116
+Total Rx Packets: 69
+Total Packets Lost: 38
+Throughput: 5.18263 Kbps
+Packets Delivery Ratio: 59.4828%
+Packets Loss Ratio: 32.7586%
+Avg End to End Delay: 0.185611
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.722s)
+
+
+Total Tx Packets: 174
+Total Rx Packets: 126
+Total Packets Lost: 42
+Throughput: 9.3699 Kbps
+Packets Delivery Ratio: 72.4138%
+Packets Loss Ratio: 24.1379%
+Avg End to End Delay: 0.0770118
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.391s)
+
+
+Total Tx Packets: 232
+Total Rx Packets: 164
+Total Packets Lost: 64
+Throughput: 12.1689 Kbps
+Packets Delivery Ratio: 70.6897%
+Packets Loss Ratio: 27.5862%
+Avg End to End Delay: 0.0512933
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.301s)
+
+
+Total Tx Packets: 290
+Total Rx Packets: 188
+Total Packets Lost: 85
+Throughput: 15.6033 Kbps
+Packets Delivery Ratio: 64.8276%
+Packets Loss Ratio: 29.3103%
+Avg End to End Delay: 0.158914
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.340s)
+
+
+Total Tx Packets: 348
+Total Rx Packets: 230
+Total Packets Lost: 98
+Throughput: 17.0495 Kbps
+Packets Delivery Ratio: 66.092%
+Packets Loss Ratio: 28.1609%
+Avg End to End Delay: 0.143905
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.260s)
+
+
+Total Tx Packets: 406
+Total Rx Packets: 214
+Total Packets Lost: 159
+Throughput: 29.2317 Kbps
+Packets Delivery Ratio: 52.7094%
+Packets Loss Ratio: 39.1626%
+Avg End to End Delay: 0.164721
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.267s)
+
+
+Total Tx Packets: 464
+Total Rx Packets: 298
+Total Packets Lost: 145
+Throughput: 22.0761 Kbps
+Packets Delivery Ratio: 64.2241%
+Packets Loss Ratio: 31.25%
+Avg End to End Delay: 0.158617
+xml@xml-virtual-machine:~/diploma/ns-allinone-3.35/ns-3.35$ 
+

@@ -1,0 +1,116 @@
+xml@xml-virtual-machine:~/diploma/ns-allinone-3.35/ns-3.35$ ./waf --run "scratch/manet-routing-compare.cc --nWifis=10 --nSinks=2"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=20 --nSinks=4"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=30 --nSinks=6"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=40 --nSinks=8"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=50 --nSinks=10"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=60 --nSinks=12"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=70 --nSinks=14"
+./waf --run "scratch/manet-routing-compare.cc --nWifis=80 --nSinks=16"
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+[2961/3033] Compiling scratch/manet-routing-compare.cc
+[2993/3033] Linking build/scratch/manet-routing-compare
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (7.448s)
+
+
+Total Tx Packets: 58
+Total Rx Packets: 14
+Total Packets Lost: 37
+Throughput: 1.33663 Kbps
+Packets Delivery Ratio: 24.1379%
+Packets Loss Ratio: 63.7931%
+Avg End to End Delay: 0.0791403
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.511s)
+
+
+Total Tx Packets: 116
+Total Rx Packets: 84
+Total Packets Lost: 28
+Throughput: 6.30929 Kbps
+Packets Delivery Ratio: 72.4138%
+Packets Loss Ratio: 24.1379%
+Avg End to End Delay: 0.117907
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.319s)
+
+
+Total Tx Packets: 174
+Total Rx Packets: 94
+Total Packets Lost: 60
+Throughput: 31.107 Kbps
+Packets Delivery Ratio: 54.023%
+Packets Loss Ratio: 34.4828%
+Avg End to End Delay: 0.0507246
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.251s)
+
+
+Total Tx Packets: 232
+Total Rx Packets: 155
+Total Packets Lost: 67
+Throughput: 11.5011 Kbps
+Packets Delivery Ratio: 66.8103%
+Packets Loss Ratio: 28.8793%
+Avg End to End Delay: 0.11176
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.429s)
+
+
+Total Tx Packets: 290
+Total Rx Packets: 190
+Total Packets Lost: 84
+Throughput: 14.1044 Kbps
+Packets Delivery Ratio: 65.5172%
+Packets Loss Ratio: 28.9655%
+Avg End to End Delay: 0.138062
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.659s)
+
+
+Total Tx Packets: 348
+Total Rx Packets: 194
+Total Packets Lost: 129
+Throughput: 54.7923 Kbps
+Packets Delivery Ratio: 55.7471%
+Packets Loss Ratio: 37.069%
+Avg End to End Delay: 0.147012
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.285s)
+
+
+Total Tx Packets: 406
+Total Rx Packets: 215
+Total Packets Lost: 166
+Throughput: 23.3299 Kbps
+Packets Delivery Ratio: 52.9557%
+Packets Loss Ratio: 40.8867%
+Avg End to End Delay: 0.189379
+Waf: Entering directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Waf: Leaving directory `/home/xml/diploma/ns-allinone-3.35/ns-3.35/build'
+Build commands will be stored in build/compile_commands.json
+'build' finished successfully (1.508s)
+
+
+Total Tx Packets: 464
+Total Rx Packets: 287
+Total Packets Lost: 158
+Throughput: 21.2612 Kbps
+Packets Delivery Ratio: 61.8534%
+Packets Loss Ratio: 34.0517%
+Avg End to End Delay: 0.137163
+xml@xml-virtual-machine:~/diploma/ns-allinone-3.35/ns-3.35$ 
+
