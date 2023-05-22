@@ -14,7 +14,7 @@ for flow in et.findall("FlowStats/Flow"):
 	losses.append(int(flow.get('lostPackets')))
 	
 	rxPackets=int(flow.get('rxPackets'))
-	if rxPackets==0:
+	if rxPackets == 0:
 		bitrates.append(0)
 	else:
 		t0=float(flow.get('timeFirstRxPacket')[:-2])
@@ -39,4 +39,4 @@ pylab.xlabel("Delay in Seconds")
 pylab.ylabel("Number of Flows")
 
 pylab.subplots_adjust(hspace=0.46)
-pylab.savefig("results.pdf")
+pylab.savefig("aodv.pdf")
